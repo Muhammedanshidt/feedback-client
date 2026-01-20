@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:4000/api",
+  baseURL: "https://feedback-server-euh6.onrender.com",
   withCredentials: true, // 🔥 REQUIRED FOR COOKIES
 });
 
